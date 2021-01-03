@@ -1,0 +1,206 @@
+/* Header section CSS goes from here */
+.header-section{
+
+}
+.header-section img{
+	width: 12%;
+	padding: 15px 0px;
+	margin: auto;
+}
+
+
+/* Banner section CSS goes from here */
+.banner-section{
+	background: url('../images/banner.png') center top no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 105px 0px;
+}
+.banner-section .banner-inner{
+	background: rgba(230,230,250, 0.56);
+	padding: 50px 15px;
+    width: 50%;
+    margin: auto;
+}
+.banner-section .banner-inner h1{
+	font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.banner-section .banner-inner p{
+	font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.banner-section .banner-inner h2{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 35px;
+}
+.strike{
+	position: relative;
+}
+.strike:before{
+	content: "";
+    position: absolute;
+    width: 83px;
+    height: 3px;
+    background: #000;
+    top: 50%;
+}
+.banner-section .banner-inner .btn{
+	padding: 10px 28px;
+	background: #343a40;
+	color: #FFFFF0;
+	border: 1px solid #343a40;
+	border-radius: 0;
+	text-transform: capitalize;
+}
+.banner-section .banner-inner .btn:hover{
+	background: transparent;
+	color: #343a40;
+	border: 1px solid #343a40;
+}
+
+
+
+/* Description section CSS goes from here */
+.description-section{
+	padding: 70px 0px;
+}
+.description-section .description-inner{
+	margin: 0px 70px;
+}
+.description-section .description-inner span{
+    width: 50%;
+    display: block;
+    height: 1px;
+    background: #000;
+    margin: auto;
+    margin: 30px auto;
+}
+.description-section .description-inner p{
+	font-size: 16px;
+	line-height: 2;
+	margin-bottom: 35px;
+}
+
+
+
+/* Card section CSS goes from here */
+.card-section {
+	padding: 75px 0px;
+}
+.card-section .card-inner{
+	padding: 0px 10px;
+}
+.card-section .card-inner .card-img{
+
+}
+.card-section .card-inner h6{
+	font-size: 18px;
+    padding: 10px 0px;
+    letter-spacing: 2px;
+    color: #343a40;
+}
+.card-section .card-inner span{
+	width: 22%;
+    display: block;
+    margin: auto;
+    height: 1.5px;
+    background: #343a40;
+    margin-bottom: 10px;
+}
+.card-section .card-inner p{
+	padding: 0 20px;
+    word-spacing: 1px;
+}
+
+
+/* Feature section CSS goes from here */
+.feature-content {
+    padding-left: 62px;
+}
+.feature-content h1{
+	font-size: 44px;
+	letter-spacing: 2px;
+	color: #343a40;
+}
+.feature-content ul{
+    padding: 0;
+}
+.feature-content ul li{
+	font-size: 20px;
+    word-spacing: 3px;
+    line-height: 2;
+    color: #343a40;
+}
+.feature-content ul li .fa{
+	margin-right: 10px;
+    font-size: 21px;
+    color: #343a40;
+}
+
+
+
+/* Brand section CSS goes from here */
+.brand-section {
+    padding: 65px;
+}
+.brand-section img{
+	margin: 10px auto;
+}
+.brand-section p{
+    padding: 0px 60px;
+}
+.brand-section span {
+    width: 60%;
+    display: block;
+    height: 1px;
+    background: #000;
+    margin: auto;
+    margin: 30px auto;
+}
+
+
+
+
+/* Footer section CSS goes from here */
+.footer-section{
+	padding: 60px 0px 16px;
+	background: #DCDCDC;
+}
+.footer-section span {
+    width: 35%;
+    display: block;
+    height: 2px;
+    background: #000;
+    margin: auto;
+    margin: 30px auto;
+}
+.footer-section h2 {
+    font-size: 40px;
+    line-height: 1.6;
+}
+.footer-section h5{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+.footer-section .btn{
+	padding: 10px 28px;
+	background: #343a40;
+	color: #FFFFF0;
+	border: 1px solid #343a40;
+	border-radius: 0;
+	text-transform: capitalize;
+}
+.footer-section .btn:hover{
+	background: transparent;
+	color: #343a40;
+	border: 1px solid #343a40;
+}
+.footer-section .copyright{
+    margin-top: 70px;
+}
